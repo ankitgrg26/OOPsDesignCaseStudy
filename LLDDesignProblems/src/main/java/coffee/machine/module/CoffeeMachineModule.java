@@ -57,8 +57,6 @@ public class CoffeeMachineModule extends AbstractModule {
     @Singleton
     @Named("IngredientMap")
     public Map<String, Ingredient> provideIngredientMap(CoffeeMachineInput input) {
-        List<Integer> list = new ArrayList<>();
-        List<Integer> list1 = new ArrayList<>(list);
         Map<String, Ingredient> ingredientMap = new HashMap<>();
         input.getMachine().getQuantity().forEach((k, v) -> {
             ingredientMap.put(k, new IngredientImpl(k, v));
