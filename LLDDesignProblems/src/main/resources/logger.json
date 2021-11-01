@@ -1,0 +1,5 @@
+{
+  "type": "INFO",
+  "appendList" : ["console"],
+  "fileAppenderPath" : "/tmp/logger.log"
+}
