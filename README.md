@@ -36,4 +36,17 @@ Note: Since there are N outlets, N people can take beverages at the same time.
 
 [Input Test Json](https://www.npoint.io/docs/e8cd5a9bbd1331de326a )
 
-## 
+## ConnectFour game
+
+![connectFour](images/Connect_Four.gif)
+
+### Details
+1. [Game details page](https://en.wikipedia.org/wiki/Connect_Four)
+### Game Rules:
+1. It is two player game. Each player have his turn alternatively.
+2. In every tern Game should show states.
+3. Player should enter the position of the next coin.
+4. Game should declare a winner after a finishing move.
+5. Undo is not supported.
+6. Computer player is not supported.
+
